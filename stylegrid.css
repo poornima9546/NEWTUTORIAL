@@ -1,0 +1,46 @@
+.container {
+    display: grid;
+    grid-template-columns: auto [cola] auto auto;
+    grid-template-rows: 200px 200px 200px;
+    grid-template-areas:
+        "left-content two-content three-content"
+        "left-content main-content main-content"
+        "left-content main-content main-content";
+    gap: 5px;
+}
+
+.item-big {
+    grid-area: left-content;
+    
+}
+
+
+.item3 {
+    grid-area: three-content;
+    background: red;
+}
+
+.item {
+    padding: 20px;
+    color: white;
+    background: brown;
+    font-size: 30px;
+}
+
+.item1{
+    background: green;
+}
+
+.item2 {
+    grid-area: two-content;
+}
+
+.item-side{
+    background: blue;
+    grid-area: main-content;
+}
+
+
+
+
+

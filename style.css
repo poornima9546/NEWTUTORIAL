@@ -1,0 +1,30 @@
+.container{
+    background: yellow;
+    display: flex;
+    flex-direction:row;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: flex-start;
+}
+
+.item{
+    background: green;
+    border: 1px solid red;
+    padding: 50px;
+    color: white;
+    font-size: 25px;
+    /* flex-grow: 1; */
+}
+
+.hello{
+    /* flex-basis: 50%; */
+   
+}
+
+.welcome{
+ 
+}
+
+.world{
+   flex-shrink: 2;
+}
